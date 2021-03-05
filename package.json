@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cbuelvasc/random-messages-depth.git"
+    "url": "git+https://github.com/cbuelvasc/random-messages-depth.git"
   },
   "bugs": {
     "url": "https://github.com/cbuelvasc/random-messages-depth/issues"
@@ -21,7 +21,8 @@
   "author": "Carmelo Buelvas Comas <cbuelvasc@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "homepage": "https://github.com/cbuelvasc/random-messages-depth#readme"
 }
